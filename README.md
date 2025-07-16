@@ -8,7 +8,7 @@ Este repositorio contiene todos los scripts y datos necesarios para reproducir l
 
 ## Estructura de Carpetas
 
-### 📁 `gen/` - Carpeta Principal
+### 📁 `cargar_archivos_1_escenarios_R/` - Carpeta Principal
 **Contenido:**
 - **Archivos de conteos brutos de ARN** (*gene raw counts*): Datos procesados listos para análisis en R
 - **Metadatos de cada escenario**: Archivos que especifican qué datasets utilizar en cada script
@@ -133,7 +133,7 @@ pip install pandas numpy matplotlib seaborn biopython
    conda env create -f environment.yml
    conda activate TFM_project_env
    ```
-3. Verificar que todos los archivos de la carpeta `gen/` están presentes
+3. Verificar que todos los archivos de la carpeta `cargar_archivos_1_escenarios_R/` están presentes
 4. Instalar dependencias adicionales de R si es necesario
 
 ### Paso 2: Ejecución del Pipeline
